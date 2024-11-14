@@ -4,7 +4,7 @@ import base64
 
 # Set the path for the predefined images (2.png for display, 7.png for download)
 initial_image_path = "2.png"
-image_path = "edit.png"
+image_path = "output.png"
 
 # Check if the predefined images exist
 if not os.path.exists(initial_image_path):
