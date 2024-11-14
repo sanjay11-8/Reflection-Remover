@@ -107,7 +107,7 @@ if uploaded_file is not None:
         st.download_button(
             label="Download image",  # Label for download
             data=file_data,          # The content of the file
-            file_name="7.png",       # Name of the file when downloaded
+            file_name="output.png",       # Name of the file when downloaded
             mime="image/png",        # MIME type for PNG image
         )
 
